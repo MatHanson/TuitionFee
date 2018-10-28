@@ -28,18 +28,21 @@ def main():
         get_number_of_lessons()
         # Input validation loop, number_of_lessons must be >= 5
         while number_of_lessons < 5:
+            print('Minimum number of lessons is 5, please try again.')
             get_number_of_lessons()
             
         # Call get_number_of_additional_hours function
         get_number_of_additional_hours()
         # Input validation loop, number_of_additional_hours must be >= 5
         while number_of_additional_hours < 5:
+            print('Minimum number of additional hours is 5, please try again.')
             get_number_of_additional_hours()
 
         # Call get_number_of_tests function
         get_number_of_tests()
         # Input validation loop, number_of_tests must be >= 5
         while number_of_tests < 5:
+            print('Minimum number of tests is 5, please try again.')
             get_number_of_tests()
         
         print('')
@@ -59,18 +62,21 @@ def main():
         get_number_of_lessons()
         # Input validation loop, number_of_lessons must be >= 4
         while number_of_lessons < 4:
+            print('Minimum number of lessons is 4, please try again.')
             get_number_of_lessons()
             
         # Call get_number_of_additional_hours function
         get_number_of_additional_hours()
         # Input validation loop, number_of_additional_hours must be >= 10
         while number_of_additional_hours < 10:
+            print('Minimum number of additional hours is 10, please try again.')
             get_number_of_additional_hours()
 
         # Call get_number_of_tests function
         get_number_of_tests()
         # Input validation loop, number_of_tests must be >= 2
         while number_of_tests < 2:
+            print('Minimum number of tests is 2, please try again.')
             get_number_of_tests()
         
         print('')
@@ -90,18 +96,21 @@ def main():
         get_number_of_lessons()
         # Input validation loop, number_of_lessons must be >= 6
         while number_of_lessons < 6:
+            print('Minimum number of lessons is 6, please try again.')
             get_number_of_lessons()
             
         # Call get_number_of_additional_hours function
         get_number_of_additional_hours()
         # Input validation loop, number_of_additional_hours must be >= 7
         while number_of_additional_hours < 7:
+            print('Minimum number of additional hours is 7, please try again.')
             get_number_of_additional_hours()
 
         # Call get_number_of_tests function
         get_number_of_tests()
         # Input validation loop, number_of_tests must be >= 2
         while number_of_tests < 2:
+            print('Minimum number of tests is 2, please try again.')
             get_number_of_tests()
         
         print('')
