@@ -1,6 +1,6 @@
 '''
 This program is designed to prompt the user to choose a language between Python, Java and
-C++. It will then prompt the uesr to input number of lessons, additional hours and number
+C++. It will then prompt the user to input number of lessons, additional hours and number
 of tests taken. The program will then compute the fees for each of these as well as the
 overall tuition fee and then display these fees to the user.
 '''
@@ -130,7 +130,7 @@ def set_fee_constants(fee1, fee2, fee3):
 # This function will request the user to input a language choice
 def get_language():
     # Input a language choice
-    language = str(input('Enter the name of the programming language: '))
+    language = str(input('Enter the name of the programming language (Python, Java, or C++): '))
     
     # Return the chosen language
     return language
